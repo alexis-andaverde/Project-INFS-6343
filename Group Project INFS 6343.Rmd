@@ -1,0 +1,19 @@
+---
+title: "Group Assignment"
+author: "Alexis Andaverde"
+date: "8/13/2022"
+output: word_document
+---
+
+Part I. Load data, summarize data, structure of data, head of data 
+```{r}
+cd<-read.csv("C:/Users/alexi/OneDrive - The University of Texas-Rio Grande Valley/Documents/COVID-19_Reported_Patient_Impact_and_Hospital_Capacity_by_State.csv")
+summary(cd)
+str(cd)
+head(cd)
+```
+Part II. Find the total number of missing values.
+```{r}
+sum(is.na(cd))
+```
+
